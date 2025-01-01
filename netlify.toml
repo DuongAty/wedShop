@@ -1,3 +1,3 @@
 [build]
-  command = "npm run build" # Lệnh để build ứng dụng
-  publish = "build"         # Thư mục chứa nội dung đã build
+  command = "npm install --legacy-peer-deps && npm run build"
+  publish = "build"
